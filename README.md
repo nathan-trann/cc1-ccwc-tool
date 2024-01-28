@@ -22,11 +22,11 @@ Currently, the features in this tool only supports **`.txt`** files, and you can
           #!/bin/bash 
           java -jar /path/to/your/ccwc.jar "$@"
           ```
-            - Make the script executable: `chmod +x ccwc`.
-            - Move the script to a directory in your PATH, like `/usr/local/bin`.
-            - Edit `~/.bashrc`, `~/.bash_profile`, or `~/.zshrc` and add:
+        - Make the script executable: `chmod +x ccwc`.
+        - Move the script to a directory in your PATH, like `/usr/local/bin`.
+        - Edit `~/.bashrc`, `~/.bash_profile`, or `~/.zshrc` and add:
 
-              `export PATH="$PATH:/path/to/script"`
+          `export PATH="$PATH:/path/to/script"`
     - **On Windows**
         - Create a batch file named `ccwc.bat` with the following content:
 
